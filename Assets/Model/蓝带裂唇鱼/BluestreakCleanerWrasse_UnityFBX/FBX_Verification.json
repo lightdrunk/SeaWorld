@@ -1,0 +1,117 @@
+{
+  "status": "PASS",
+  "converter": "4.5.13 LTS",
+  "format": "FBX binary",
+  "fbx_version": 7400,
+  "file_bytes": 3908108,
+  "mesh_parts": 33,
+  "triangles": 34708,
+  "bones": [
+    "Root",
+    "Spine_01",
+    "Spine_02",
+    "Spine_03",
+    "Spine_04",
+    "Spine_05",
+    "Spine_06",
+    "Caudal_Base",
+    "Caudal_Tip",
+    "Dorsal_Posterior",
+    "Anal_Posterior",
+    "Dorsal_Middle",
+    "Anal_Anterior",
+    "Pectoral_L",
+    "Pelvic_L",
+    "Pectoral_R",
+    "Pelvic_R",
+    "Jaw",
+    "Dorsal_Anterior"
+  ],
+  "label_nodes": 17,
+  "animation_takes": [
+    {
+      "name": "Idle_Swim",
+      "duration_seconds": 3.0
+    },
+    {
+      "name": "Jaw_Demonstration",
+      "duration_seconds": 2.0
+    }
+  ],
+  "before_bounds_m": [
+    [
+      -0.053999997675418854,
+      -0.009430009871721268,
+      -0.014876479282975197
+    ],
+    [
+      0.05949999764561653,
+      0.009430009871721268,
+      0.018139567226171494
+    ]
+  ],
+  "roundtrip_bounds_m": [
+    [
+      -0.05400000140070915,
+      -0.009430009871721268,
+      -0.014876480214297771
+    ],
+    [
+      0.05949999764561653,
+      0.009430010803043842,
+      0.018139565363526344
+    ]
+  ],
+  "max_roundtrip_bounds_error_m": 3.725290298461914e-09,
+  "max_animation_deformation_matrix_error": 4.76837158203125e-07,
+  "texture_images": [
+    {
+      "name": "Wrasse_BaseColor_2K.png.001",
+      "dimensions": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "Wrasse_BaseColor_2K.png.002",
+      "dimensions": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "Wrasse_BaseColor_2K.png.003",
+      "dimensions": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "Wrasse_BaseColor_2K.png.004",
+      "dimensions": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "Wrasse_Normal_OpenGL_2K.png.001",
+      "dimensions": [
+        2048,
+        2048
+      ]
+    }
+  ],
+  "checks": [
+    "Binary FBX header",
+    "Fresh-scene FBX reimport",
+    "Mesh and triangle counts",
+    "All 19 bones preserved",
+    "All 17 annotation nodes preserved",
+    "Two named animation takes",
+    "Model scale retained within 0.01 mm",
+    "Both animations: sampled bone deformation matrices match source"
+  ],
+  "limitations": [
+    "Unity Editor import not executed on this machine. PBR maps and Unity material setup helper are supplied separately."
+  ]
+}

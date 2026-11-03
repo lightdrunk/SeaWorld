@@ -1,0 +1,531 @@
+{
+  "scientific_name": "Pomacentrus coelestis",
+  "standard_length_m": 0.072,
+  "target_SL_to_body_depth": 2.55,
+  "total_length_m": 0.09379439800977707,
+  "mesh_objects": 39,
+  "vertices": 19389,
+  "triangles": 37806,
+  "bone_count": 17,
+  "texture_resolution": [
+    2048,
+    2048
+  ],
+  "fin_counts": {
+    "dorsal_spines": 13,
+    "dorsal_soft_rays": 14,
+    "anal_spines": 2,
+    "anal_soft_rays": 14,
+    "pectoral_rays_per_side": 18,
+    "lateral_line_pores_per_side": 18
+  },
+  "palette_reference": "https://en.pimg.jp/139/192/274/1/139192274.jpg",
+  "palette_note": "Original procedural texture; cobalt blue, muted golden belly, pale creamy yellow tail. No photograph pixels or watermark included.",
+  "anchors": {
+    "BlueDorsalRegion": [
+      -0.004319999999999999,
+      -0.0059759999999999995,
+      0.008064
+    ],
+    "YellowVentralRegion": [
+      0.0,
+      -0.00468,
+      -0.009216
+    ],
+    "BlueYellowBoundary": [
+      0.0057599999999999995,
+      -0.0036719999999999995,
+      -0.0056879999999999995
+    ],
+    "ForkedCaudalFin": [
+      0.050039999999999994,
+      0.0,
+      0.008639999999999998
+    ],
+    "DorsalSpines_XIII": [
+      -0.00936,
+      0.0,
+      0.018288
+    ],
+    "DorsalSoftRays_14": [
+      0.02016,
+      0.0,
+      0.016919999999999998
+    ],
+    "AnalFin_II_14": [
+      0.01296,
+      0.0,
+      -0.016848
+    ],
+    "PectoralFin_L": [
+      -0.004319999999999999,
+      -0.009,
+      -0.0060479999999999996
+    ],
+    "PectoralFin_R": [
+      -0.004319999999999999,
+      0.009,
+      -0.0060479999999999996
+    ],
+    "TerminalMouth": [
+      -0.036719999999999996,
+      0.0,
+      0.0006479999999999999
+    ],
+    "Eye_L": [
+      -0.026208,
+      -0.006191999999999999,
+      0.005255999999999999
+    ],
+    "Eye_R": [
+      -0.026208,
+      0.006191999999999999,
+      0.005255999999999999
+    ],
+    "Operculum_L": [
+      -0.01584,
+      -0.0056159999999999995,
+      0.0012959999999999998
+    ],
+    "Operculum_R": [
+      -0.01584,
+      0.0056159999999999995,
+      0.0012959999999999998
+    ],
+    "CtenoidScales": [
+      0.0018,
+      -0.004824,
+      0.002448
+    ],
+    "LateralLine18_L": [
+      0.0028799999999999997,
+      -0.0037439999999999995,
+      0.006768
+    ],
+    "PelvicFin": [
+      -0.010799999999999999,
+      -0.0028799999999999997,
+      -0.01656
+    ]
+  },
+  "bones": {
+    "Root": {
+      "head": [
+        0,
+        0,
+        0
+      ],
+      "tail": [
+        0,
+        0,
+        0.1
+      ],
+      "parent": null
+    },
+    "Spine_01": {
+      "head": [
+        -0.3,
+        0,
+        0
+      ],
+      "tail": [
+        -0.12,
+        0,
+        0
+      ],
+      "parent": "Root"
+    },
+    "Spine_02": {
+      "head": [
+        -0.12,
+        0,
+        0
+      ],
+      "tail": [
+        0.07,
+        0,
+        0
+      ],
+      "parent": "Spine_01"
+    },
+    "Spine_03": {
+      "head": [
+        0.07,
+        0,
+        0
+      ],
+      "tail": [
+        0.25,
+        0,
+        0
+      ],
+      "parent": "Spine_02"
+    },
+    "Spine_04": {
+      "head": [
+        0.25,
+        0,
+        0
+      ],
+      "tail": [
+        0.43,
+        0,
+        0
+      ],
+      "parent": "Spine_03"
+    },
+    "CaudalPeduncle": {
+      "head": [
+        0.43,
+        0,
+        0
+      ],
+      "tail": [
+        0.5,
+        0,
+        0
+      ],
+      "parent": "Spine_04"
+    },
+    "TailFin": {
+      "head": [
+        0.5,
+        0,
+        0
+      ],
+      "tail": [
+        0.75,
+        0,
+        0
+      ],
+      "parent": "CaudalPeduncle"
+    },
+    "Head": {
+      "head": [
+        -0.3,
+        0,
+        0
+      ],
+      "tail": [
+        -0.48,
+        0,
+        0.035
+      ],
+      "parent": "Spine_01"
+    },
+    "LowerJaw": {
+      "head": [
+        -0.445,
+        0,
+        -0.014
+      ],
+      "tail": [
+        -0.505,
+        0,
+        0.001
+      ],
+      "parent": "Head"
+    },
+    "DorsalSpines": {
+      "head": [
+        -0.12,
+        0,
+        0.175
+      ],
+      "tail": [
+        -0.1,
+        0,
+        0.25
+      ],
+      "parent": "Spine_02"
+    },
+    "DorsalSoft": {
+      "head": [
+        0.25,
+        0,
+        0.13
+      ],
+      "tail": [
+        0.29,
+        0,
+        0.23
+      ],
+      "parent": "Spine_04"
+    },
+    "AnalFin": {
+      "head": [
+        0.15,
+        0,
+        -0.13
+      ],
+      "tail": [
+        0.21,
+        0,
+        -0.25
+      ],
+      "parent": "Spine_03"
+    },
+    "Pectoral.L": {
+      "head": [
+        -0.19,
+        -0.072,
+        -0.025
+      ],
+      "tail": [
+        -0.05,
+        -0.135,
+        -0.1
+      ],
+      "parent": "Spine_01"
+    },
+    "Pelvic.L": {
+      "head": [
+        -0.19,
+        -0.018,
+        -0.14
+      ],
+      "tail": [
+        -0.12,
+        -0.04,
+        -0.25
+      ],
+      "parent": "Spine_01"
+    },
+    "Pectoral.R": {
+      "head": [
+        -0.19,
+        0.072,
+        -0.025
+      ],
+      "tail": [
+        -0.05,
+        0.135,
+        -0.1
+      ],
+      "parent": "Spine_01"
+    },
+    "Pelvic.R": {
+      "head": [
+        -0.19,
+        0.018,
+        -0.14
+      ],
+      "tail": [
+        -0.12,
+        0.04,
+        -0.25
+      ],
+      "parent": "Spine_01"
+    },
+    "AnnotationRoot": {
+      "head": [
+        0,
+        0,
+        0.3
+      ],
+      "tail": [
+        0,
+        0,
+        0.35
+      ],
+      "parent": "Root"
+    }
+  },
+  "parts": [
+    {
+      "name": "Body_BlueDorsum_YellowVenter",
+      "anatomy": "body",
+      "vertices": 7272
+    },
+    {
+      "name": "Dorsal_SpinousMembrane_XIII",
+      "anatomy": "dorsal_fin",
+      "vertices": 350
+    },
+    {
+      "name": "Dorsal_Spines_13",
+      "anatomy": "dorsal_spine",
+      "vertices": 273
+    },
+    {
+      "name": "Dorsal_SoftMembrane_14",
+      "anatomy": "dorsal_fin",
+      "vertices": 212
+    },
+    {
+      "name": "Dorsal_SoftRays_14",
+      "anatomy": "dorsal_ray",
+      "vertices": 490
+    },
+    {
+      "name": "Anal_FinMembrane",
+      "anatomy": "anal_fin",
+      "vertices": 226
+    },
+    {
+      "name": "Anal_Spines_02",
+      "anatomy": "yellow_ray",
+      "vertices": 28
+    },
+    {
+      "name": "Anal_SoftRays_14",
+      "anatomy": "yellow_ray",
+      "vertices": 294
+    },
+    {
+      "name": "Caudal_ForkedMembrane",
+      "anatomy": "caudal_fin",
+      "vertices": 350
+    },
+    {
+      "name": "Caudal_Rays_18",
+      "anatomy": "caudal_ray",
+      "vertices": 630
+    },
+    {
+      "name": "Pectoral_Membrane.L",
+      "anatomy": "pectoral_fin",
+      "vertices": 252
+    },
+    {
+      "name": "Pectoral_Rays_18.L",
+      "anatomy": "pectoral_ray",
+      "vertices": 378
+    },
+    {
+      "name": "Pelvic_Fin.L",
+      "anatomy": "pelvic_fin",
+      "vertices": 98
+    },
+    {
+      "name": "Pelvic_Rays.L",
+      "anatomy": "yellow_ray",
+      "vertices": 98
+    },
+    {
+      "name": "Operculum_VisibleEdge.L",
+      "anatomy": "gill_dark",
+      "vertices": 161
+    },
+    {
+      "name": "Operculum_HighlightRim.L",
+      "anatomy": "gill_blue",
+      "vertices": 161
+    },
+    {
+      "name": "Eye_Globe.L",
+      "anatomy": "eye_globe",
+      "vertices": 546
+    },
+    {
+      "name": "Eye_Iris.L",
+      "anatomy": "iris",
+      "vertices": 546
+    },
+    {
+      "name": "Eye_Pupil.L",
+      "anatomy": "pupil",
+      "vertices": 546
+    },
+    {
+      "name": "Eye_OrbitalRim.L",
+      "anatomy": "eye_rim",
+      "vertices": 455
+    },
+    {
+      "name": "LateralLine_Pores_18.L",
+      "anatomy": "pore",
+      "vertices": 810
+    },
+    {
+      "name": "Pectoral_Membrane.R",
+      "anatomy": "pectoral_fin",
+      "vertices": 252
+    },
+    {
+      "name": "Pectoral_Rays_18.R",
+      "anatomy": "pectoral_ray",
+      "vertices": 378
+    },
+    {
+      "name": "Pelvic_Fin.R",
+      "anatomy": "pelvic_fin",
+      "vertices": 98
+    },
+    {
+      "name": "Pelvic_Rays.R",
+      "anatomy": "yellow_ray",
+      "vertices": 98
+    },
+    {
+      "name": "Operculum_VisibleEdge.R",
+      "anatomy": "gill_dark",
+      "vertices": 161
+    },
+    {
+      "name": "Operculum_HighlightRim.R",
+      "anatomy": "gill_blue",
+      "vertices": 161
+    },
+    {
+      "name": "Eye_Globe.R",
+      "anatomy": "eye_globe",
+      "vertices": 546
+    },
+    {
+      "name": "Eye_Iris.R",
+      "anatomy": "iris",
+      "vertices": 546
+    },
+    {
+      "name": "Eye_Pupil.R",
+      "anatomy": "pupil",
+      "vertices": 546
+    },
+    {
+      "name": "Eye_OrbitalRim.R",
+      "anatomy": "eye_rim",
+      "vertices": 455
+    },
+    {
+      "name": "LateralLine_Pores_18.R",
+      "anatomy": "pore",
+      "vertices": 810
+    },
+    {
+      "name": "Mouth_OralCavity",
+      "anatomy": "mouth",
+      "vertices": 354
+    },
+    {
+      "name": "Mouth_UpperLip",
+      "anatomy": "lip",
+      "vertices": 264
+    },
+    {
+      "name": "Teeth_Upper_OuterRow",
+      "anatomy": "teeth",
+      "vertices": 70
+    },
+    {
+      "name": "Teeth_Upper_InnerRow",
+      "anatomy": "teeth",
+      "vertices": 70
+    },
+    {
+      "name": "Jaw_LowerLip",
+      "anatomy": "lip",
+      "vertices": 264
+    },
+    {
+      "name": "Teeth_Lower_OuterRow",
+      "anatomy": "teeth",
+      "vertices": 70
+    },
+    {
+      "name": "Teeth_Lower_InnerRow",
+      "anatomy": "teeth",
+      "vertices": 70
+    }
+  ]
+}

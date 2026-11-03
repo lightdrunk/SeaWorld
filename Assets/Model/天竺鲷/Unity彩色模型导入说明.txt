@@ -1,0 +1,42 @@
+天竺鲷彩色模型 / Cardinalfish Colored Unity FBX
+
+根据用户提供的 920.jpg 参考图，为现有白模制作配色：
+金黄色上半身、浅银白腹部、四条褐色纵纹、橙红色鱼鳍、
+金色虹膜与黑色瞳孔。配色为按参考图重绘的近似纹理。
+网格、米制尺寸、八片鱼鳍与底部中心轴心保留。
+本次没有添加骨骼、动画或低模。
+
+文件
+Cardinalfish_Unity_Colored.fbx：二进制 FBX 7.4，含嵌入彩色贴图。
+Cardinalfish_Colored_Body_2K.png：鱼身基础颜色贴图。
+Cardinalfish_Colored_Fins_2K.png：背鳍、腹鳍与臀鳍基础颜色贴图。
+Cardinalfish_Colored_Tail_2K.png：尾鳍与胸鳍基础颜色贴图。
+Cardinalfish_Colored_Eye_2K.png：虹膜与瞳孔基础颜色贴图。
+所有贴图均为 2048×2048 的 sRGB 基础颜色图，不是法线图。
+Cardinalfish_Colored_Preview.png：本次实际模型渲染预览。
+
+规格
+9 个网格：身体与雕刻细节为一个网格，八片鱼鳍各为独立网格。
+双背鳍、左右胸鳍、左右腹鳍、单臀鳍、单尾鳍。
+左右成对鱼鳍镜像对称。鳞片与鳍条是几何细节。
+495,228 个三角面，静态高模，全长 0.20 米，公共轴心为底部中心。
+FBX 导出轴向为 Y Up / -Z Forward；鱼头在源网格中朝 -X。
+
+Unity 导入
+1. 将 FBX 和四张 PNG 一起拖入项目 Assets 文件夹。
+2. Model 页保持 Scale Factor = 1，并启用文件单位转换。
+3. Normals 选择 Import；Tangents 可用 Import 或 Calculate Mikktspace。
+4. Rig 选择 None，关闭 Import Animation。
+5. 在 Materials 页按需点击 Extract Textures / Extract Materials，
+   然后将对应贴图指定为材质的 Base Map / Albedo。
+6. Shader 根据项目渲染管线选择：Standard、URP/Lit 或 HDRP/Lit。
+   若出现粉色显示，重新指定对应管线的 Shader。
+7. 所有材质 Metallic = 0，使用不透明表面；贴图开启 sRGB。
+   鱼身 Smoothness 约 0.52，眼睛约 0.85，鱼鳍约 0.42。
+   眼框用金色材质；鳍条用浅金色材质，二者使用材质纯色。
+8. 将模型拖入场景，需要重复使用时保存为 Prefab。
+
+验证
+已从单独目录重新导入 FBX，核对与白模的几何一致性、鱼鳍数量、
+轴心、米制尺寸、UV、材质和四张嵌入 2K 贴图。
+本机未安装 Unity，未在 Unity 编辑器执行实际导入测试。

@@ -1,0 +1,345 @@
+{
+  "source": {
+    "mesh_objects": 33,
+    "vertices": 25100,
+    "triangles": 49824,
+    "bones": 65,
+    "label_anchors": 70,
+    "bounds_m": {
+      "min": [
+        -0.034524090588092804,
+        -0.00650434847921133,
+        -0.03530283272266388
+      ],
+      "max": [
+        0.016473090276122093,
+        0.00650434847921133,
+        0.11431215703487396
+      ],
+      "size": [
+        0.0509971808642149,
+        0.01300869695842266,
+        0.14961498975753784
+      ]
+    },
+    "unweighted_vertices": 0,
+    "max_skin_weight_sum_error": 2.9802322387695312e-08,
+    "max_bone_influences": 2,
+    "mirror_max_error_m": 1.6298145055770874e-08,
+    "degenerate_triangles": [],
+    "mesh_topology": {
+      "AxialArmor_11Trunk_41Tail": {
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0
+      },
+      "Cheek_HookSpine.L": {
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0
+      },
+      "Supraorbital_HookSpine.L": {
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0
+      },
+      "Eye_Globe.L": {
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0
+      },
+      "Eye_Iris.L": {
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0
+      },
+      "Eye_Pupil.L": {
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0
+      },
+      "Operculum_RaisedRidge.L": {
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0
+      },
+      "GillOpening.L": {
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0
+      },
+      "Cheek_HookSpine.R": {
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0
+      },
+      "Supraorbital_HookSpine.R": {
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0
+      },
+      "Eye_Globe.R": {
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0
+      },
+      "Eye_Iris.R": {
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0
+      },
+      "Eye_Pupil.R": {
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0
+      },
+      "Operculum_RaisedRidge.R": {
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0
+      },
+      "GillOpening.R": {
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0
+      },
+      "Coronet_TinyPoint_01": {
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0
+      },
+      "Coronet_TinyPoint_02": {
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0
+      },
+      "Coronet_TinyPoint_03": {
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0
+      },
+      "Coronet_TinyPoint_04": {
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0
+      },
+      "Coronet_TinyPoint_05": {
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0
+      },
+      "Trunk_PlateJunctionRidges": {
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0
+      },
+      "Mandible_LowerJaw": {
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0
+      },
+      "Dorsal_Single_20Soft_Membrane": {
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0
+      },
+      "Dorsal_Single_20Soft_SoftRays_20": {
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0
+      },
+      "Pectoral_Fan.L_Membrane": {
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0
+      },
+      "Pectoral_Fan.L_SoftRays_18": {
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0
+      },
+      "Pectoral_Fan.R_Membrane": {
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0
+      },
+      "Pectoral_Fan.R_SoftRays_18": {
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0
+      },
+      "Anus": {
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0
+      },
+      "Anal_Tiny_4Soft_Membrane": {
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0
+      },
+      "Anal_Tiny_4Soft_SoftRays_04": {
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0
+      },
+      "Male_BroodPouch_VentralTail": {
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0
+      },
+      "BroodPouch_OpeningRim": {
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0
+      }
+    },
+    "UV_outside_0_1_triangles": 0,
+    "UV_zero_area_triangles": 0,
+    "UV_overlap_interior_texels_2K": 0,
+    "UV_overlap_examples": [],
+    "UV_occupancy": 0.5805518627166748,
+    "animation_probes": {
+      "Idle_FinPropulsion_2s": {
+        "frame_range": [
+          1.0,
+          61.0
+        ],
+        "probe": "Dorsal_Single_20Soft_Membrane",
+        "max_displacement_m": 0.0027068838609741533
+      },
+      "TailCurl_Demonstration_3s": {
+        "frame_range": [
+          1.0,
+          91.0
+        ],
+        "probe": "AxialArmor_11Trunk_41Tail",
+        "max_displacement_m": 0.004264708537141928
+      },
+      "Jaw_SubtleOpen_1s": {
+        "frame_range": [
+          1.0,
+          31.0
+        ],
+        "probe": "Mandible_LowerJaw",
+        "max_displacement_m": 0.00035647799682091044
+      }
+    }
+  },
+  "FBX_roundtrip": {
+    "mesh_objects": 33,
+    "vertices": 25100,
+    "triangles": 49824,
+    "bones": 65,
+    "animation_stacks": [
+      "Idle_FinPropulsion_2s",
+      "TailCurl_Demonstration_3s",
+      "Jaw_SubtleOpen_1s"
+    ],
+    "imported_per_object_action_count": 213,
+    "skeleton_actions": [
+      {
+        "name": "HT_Rig|Idle_FinPropulsion_2s",
+        "frames": [
+          1.0,
+          61.0
+        ]
+      },
+      {
+        "name": "HT_Rig|Jaw_SubtleOpen_1s",
+        "frames": [
+          1.0,
+          31.0
+        ]
+      },
+      {
+        "name": "HT_Rig|TailCurl_Demonstration_3s",
+        "frames": [
+          1.0,
+          91.0
+        ]
+      }
+    ],
+    "missing_uv_meshes": 0,
+    "unweighted_vertices": 0,
+    "rest_geometry_max_error_m": 2.1936456207072297e-08,
+    "per_mesh_error_m": {
+      "Anal_Tiny_4Soft_Membrane": 7.37821670426797e-09,
+      "Coronet_TinyPoint_05": 2.1816557449483298e-08,
+      "Dorsal_Single_20Soft_Membrane": 9.3958760771784e-09,
+      "Dorsal_Single_20Soft_SoftRays_20": 9.412858048563066e-09,
+      "Eye_Iris.R": 2.1445712761192226e-08,
+      "GillOpening.R": 2.035779189668574e-08,
+      "Operculum_RaisedRidge.R": 2.1228485636015648e-08,
+      "Pectoral_Fan.R_SoftRays_18": 2.014758848645215e-08,
+      "AxialArmor_11Trunk_41Tail": 2.1936456207072297e-08,
+      "BroodPouch_OpeningRim": 7.513738964348704e-09,
+      "Cheek_HookSpine.L": 1.9182758492775065e-08,
+      "Eye_Globe.L": 2.010988353617904e-08,
+      "Eye_Pupil.L": 1.964627038830713e-08,
+      "Male_BroodPouch_VentralTail": 7.532341861349323e-09,
+      "Pectoral_Fan.L_Membrane": 1.8719351402296525e-08,
+      "Supraorbital_HookSpine.L": 2.0341724749073364e-08,
+      "Anus": 7.558229597748323e-09,
+      "Coronet_TinyPoint_01": 2.063155690734675e-08,
+      "Coronet_TinyPoint_03": 2.058445502939321e-08,
+      "Coronet_TinyPoint_04": 2.1891343848778888e-08,
+      "Eye_Globe.R": 2.1445712761192226e-08,
+      "Eye_Pupil.R": 2.1011594242281717e-08,
+      "Mandible_LowerJaw": 2.027858769793056e-08,
+      "Pectoral_Fan.L_SoftRays_18": 1.8719351402296525e-08,
+      "Supraorbital_HookSpine.R": 2.1663261406956735e-08,
+      "Anal_Tiny_4Soft_SoftRays_04": 7.3963248858888164e-09,
+      "Cheek_HookSpine.R": 2.057885772899226e-08,
+      "Coronet_TinyPoint_02": 2.1935640859283012e-08,
+      "Eye_Iris.L": 2.010988353617904e-08,
+      "GillOpening.L": 1.894540879732176e-08,
+      "Operculum_RaisedRidge.L": 1.987806541592363e-08,
+      "Pectoral_Fan.R_Membrane": 2.014758848645215e-08,
+      "Trunk_PlateJunctionRidges": 1.9076489721214784e-08
+    },
+    "label_anchors": 70,
+    "missing_anchors": [],
+    "label_max_position_error_m": 7.760808024104255e-08,
+    "bounds_m": {
+      "min": [
+        -0.034524090588092804,
+        -0.006504336837679148,
+        -0.03530282527208328
+      ],
+      "max": [
+        0.016473090276122093,
+        0.006504360120743513,
+        0.11431215703487396
+      ],
+      "size": [
+        0.0509971808642149,
+        0.01300869695842266,
+        0.14961498230695724
+      ]
+    },
+    "animation_geometry_errors_m": {
+      "Idle_FinPropulsion_2s": 2.4931638975544956e-08,
+      "TailCurl_Demonstration_3s": 8.62411297930521e-08,
+      "Jaw_SubtleOpen_1s": 5.6645244939090844e-08
+    }
+  },
+  "textures": {
+    "HT_BaseColor_2K": {
+      "size": [
+        2048,
+        2048
+      ],
+      "channels": 4
+    },
+    "HT_Normal_OpenGL_2K": {
+      "size": [
+        2048,
+        2048
+      ],
+      "channels": 4
+    },
+    "HT_Roughness_2K": {
+      "size": [
+        2048,
+        2048
+      ],
+      "channels": 4
+    },
+    "HT_Metallic_2K": {
+      "size": [
+        2048,
+        2048
+      ],
+      "channels": 4
+    },
+    "HT_URP_MetallicSmoothness_2K": {
+      "size": [
+        2048,
+        2048
+      ],
+      "channels": 4
+    }
+  },
+  "anatomy_counts": {
+    "trunk_rings": 11,
+    "tail_rings": 41,
+    "coronet_tips": 5,
+    "dorsal_soft_rays": 20,
+    "pectoral_soft_rays_each": 18,
+    "anal_soft_rays": 4,
+    "dorsal_spines": 0,
+    "pelvic_fins": 0,
+    "caudal_fins": 0
+  },
+  "Unity_editor_tested": false,
+  "Unity_note": "Unity Editor is not installed here; FBX, animation, UV, rig and texture checks were performed in Blender 4.5.3. URP setup uses documented Unity 2022.3+ APIs.",
+  "passed": true
+}

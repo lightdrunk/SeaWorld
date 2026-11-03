@@ -1,0 +1,194 @@
+{
+  "species": "Labroides dimidiatus",
+  "units": "metres",
+  "coordinates": "glTF right-handed: +Y dorsal, +X tail, +Z left",
+  "anchors": [
+    {
+      "id": "snout",
+      "label_zh": "吻端",
+      "position_m": [
+        -0.0532,
+        0.0004,
+        0
+      ],
+      "bone": "Spine_01",
+      "description_zh": "尖吻前端"
+    },
+    {
+      "id": "terminal_mouth",
+      "label_zh": "端位口",
+      "position_m": [
+        -0.0531,
+        -0.0001,
+        0
+      ],
+      "bone": "Spine_01",
+      "description_zh": "口位于吻端，口裂较小"
+    },
+    {
+      "id": "bilobed_lower_lip",
+      "label_zh": "分叶下唇",
+      "position_m": [
+        -0.0532,
+        -0.0008,
+        0.00065
+      ],
+      "bone": "Jaw",
+      "description_zh": "左右两叶之间有中缝，教学显示略作强化"
+    },
+    {
+      "id": "eye_L",
+      "label_zh": "眼睛L",
+      "position_m": [
+        -0.04,
+        0.00065,
+        0.0045
+      ],
+      "bone": "Spine_01",
+      "description_zh": "清晰的虹膜与瞳孔"
+    },
+    {
+      "id": "operculum_L",
+      "label_zh": "鳃盖L",
+      "position_m": [
+        -0.027,
+        0.001,
+        0.0051
+      ],
+      "bone": "Spine_01",
+      "description_zh": "鳃盖后缘可见"
+    },
+    {
+      "id": "pectoral_L",
+      "label_zh": "胸鳍L",
+      "position_m": [
+        -0.016,
+        -0.005,
+        0.0083
+      ],
+      "bone": "Pectoral_L",
+      "description_zh": "略圆的胸鳍，13条软条"
+    },
+    {
+      "id": "eye_R",
+      "label_zh": "眼睛R",
+      "position_m": [
+        -0.04,
+        0.00065,
+        -0.0045
+      ],
+      "bone": "Spine_01",
+      "description_zh": "清晰的虹膜与瞳孔"
+    },
+    {
+      "id": "operculum_R",
+      "label_zh": "鳃盖R",
+      "position_m": [
+        -0.027,
+        0.001,
+        -0.0051
+      ],
+      "bone": "Spine_01",
+      "description_zh": "鳃盖后缘可见"
+    },
+    {
+      "id": "pectoral_R",
+      "label_zh": "胸鳍R",
+      "position_m": [
+        -0.016,
+        -0.005,
+        -0.0083
+      ],
+      "bone": "Pectoral_R",
+      "description_zh": "略圆的胸鳍，13条软条"
+    },
+    {
+      "id": "stripe_anterior",
+      "label_zh": "单条黑色纵带（前段）",
+      "position_m": [
+        -0.035,
+        0.00035,
+        0.0041
+      ],
+      "bone": "Spine_01",
+      "description_zh": "自吻端穿眼，连续沿体侧向后延伸"
+    },
+    {
+      "id": "stripe_widening",
+      "label_zh": "黑色纵带后部渐宽",
+      "position_m": [
+        0.028,
+        0.00035,
+        0.0028
+      ],
+      "bone": "Spine_05",
+      "description_zh": "后部宽度增加，连到尾鳍的大块黑色区域"
+    },
+    {
+      "id": "dorsal_spines",
+      "label_zh": "背鳍硬棘",
+      "position_m": [
+        -0.014,
+        0.017,
+        0
+      ],
+      "bone": "Dorsal_Anterior",
+      "description_zh": "9枚硬棘，sourceParts 中保留各棘名称"
+    },
+    {
+      "id": "dorsal_soft_rays",
+      "label_zh": "背鳍软条",
+      "position_m": [
+        0.019,
+        0.016,
+        0
+      ],
+      "bone": "Dorsal_Posterior",
+      "description_zh": "本模型选择11条软条"
+    },
+    {
+      "id": "dorsal_black_spot",
+      "label_zh": "背鳍棘间黑斑",
+      "position_m": [
+        -0.021,
+        0.0145,
+        0.00012
+      ],
+      "bone": "Dorsal_Anterior",
+      "description_zh": "位于第1至第3背鳍棘之间"
+    },
+    {
+      "id": "anal_fin",
+      "label_zh": "臀鳍",
+      "position_m": [
+        0.015,
+        -0.0145,
+        0
+      ],
+      "bone": "Anal_Anterior",
+      "description_zh": "3枚硬棘、10条软条"
+    },
+    {
+      "id": "caudal_fin",
+      "label_zh": "尾鳍",
+      "position_m": [
+        0.057,
+        0,
+        0
+      ],
+      "bone": "Caudal_Tip",
+      "description_zh": "尾缘近截形，边角微圆"
+    },
+    {
+      "id": "lateral_line",
+      "label_zh": "侧线",
+      "position_m": [
+        0.008,
+        0.0078,
+        0.0032
+      ],
+      "bone": "Spine_03",
+      "description_zh": "沿体侧上方细线可辨"
+    }
+  ]
+}

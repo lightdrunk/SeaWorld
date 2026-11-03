@@ -1,0 +1,3 @@
+Built-in image_gen edit.
+
+Use case: precise-object-edit. Input image 1 is the edit target: a real orange clownfish on a white background. Remove all overlaid stock-photo watermarks, diagonal watermark grid lines, logos, and the small gray ID text strip at the bottom. Reconstruct the affected fish scales, orange pigment, white bands, and fin rays naturally and continuously. Keep the same fish, shape, pose, framing, direction (head on the right), orange/white/black colors, eye, and white background. Change only watermark-affected pixels; preserve realistic photographic details elsewhere. No added text or objects.

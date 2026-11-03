@@ -1,0 +1,83 @@
+{
+  "source_mesh_count": 17,
+  "source_quads_percent": 98.5,
+  "source_vertices": 19147,
+  "source_bones": [
+    "Root",
+    "Spine_01",
+    "Spine_02",
+    "Spine_03",
+    "Tail_01",
+    "Tail_02",
+    "Caudal",
+    "Dorsal_Soft",
+    "Anal",
+    "Head",
+    "LowerJaw",
+    "Dorsal_Spines",
+    "Pectoral_L",
+    "Pelvic_L",
+    "Pectoral_R",
+    "Pelvic_R"
+  ],
+  "uv_overlap_interior_pixels_4096": 0,
+  "uv_out_of_bounds_triangles": 0,
+  "degenerate_uv_triangles": 0,
+  "Body_LaterallyCompressed_mirror_mismatch_vertices": 0,
+  "Dorsal_mirror_mismatch_vertices": 0,
+  "Anal_mirror_mismatch_vertices": 0,
+  "Caudal_mirror_mismatch_vertices": 0,
+  "posed_meshes_moved": [
+    "Body_LaterallyCompressed",
+    "Dorsal",
+    "Anal",
+    "Caudal",
+    "Pectoral_L",
+    "LowerJaw"
+  ],
+  "fbx_import_meshes": 17,
+  "fbx_import_armatures": 1,
+  "fbx_import_bones": 16,
+  "fbx_skinned_meshes": 17,
+  "fbx_bounding_box_m": [
+    0.100372,
+    0.031429,
+    0.046284
+  ],
+  "fbx_annotation_anchors": 18,
+  "fbx_images_loaded": [
+    {
+      "name": "Ocellaris_BaseColor_2K.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "exists": true
+    },
+    {
+      "name": "Ocellaris_Metallic_2K.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "exists": true
+    },
+    {
+      "name": "Ocellaris_Normal_2K.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "exists": true
+    },
+    {
+      "name": "Ocellaris_Roughness_2K.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "exists": true
+    }
+  ],
+  "passed": true
+}

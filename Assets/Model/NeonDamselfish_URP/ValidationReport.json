@@ -1,0 +1,365 @@
+{
+  "source": {
+    "source_mesh_count": 39,
+    "vertices": 19389,
+    "triangles": 37806,
+    "bones": 17,
+    "body_depth_m": 0.028235293924808502,
+    "SL_div_body_depth": 2.5500000174157322,
+    "total_dimensions_m": [
+      0.09379439800977707,
+      0.01987621933221817,
+      0.03826870955526829
+    ],
+    "unweighted_vertices": 0,
+    "max_weight_sum_error": 2.9802322387695312e-08,
+    "max_bone_influences": 2,
+    "missing_uv_meshes": [],
+    "uv_outside_unit_square_triangles": 0,
+    "uv_overlapping_interior_texels_at_2K": 0,
+    "uv_occupied_texels_at_2K": 2150861,
+    "uv_overlap_pairs": [],
+    "degenerate_triangles": [],
+    "body_boundary_edges": 0,
+    "mesh_boundary_edges": {
+      "Anal_FinMembrane": 0,
+      "Anal_SoftRays_14": 0,
+      "Anal_Spines_02": 0,
+      "Body_BlueDorsum_YellowVenter": 0,
+      "Caudal_ForkedMembrane": 0,
+      "Caudal_Rays_18": 0,
+      "Dorsal_SoftMembrane_14": 0,
+      "Dorsal_SoftRays_14": 0,
+      "Dorsal_Spines_13": 0,
+      "Dorsal_SpinousMembrane_XIII": 0,
+      "Eye_Globe.L": 0,
+      "Eye_Globe.R": 0,
+      "Eye_Iris.L": 0,
+      "Eye_Iris.R": 0,
+      "Eye_OrbitalRim.L": 0,
+      "Eye_OrbitalRim.R": 0,
+      "Eye_Pupil.L": 0,
+      "Eye_Pupil.R": 0,
+      "Jaw_LowerLip": 0,
+      "LateralLine_Pores_18.L": 0,
+      "LateralLine_Pores_18.R": 0,
+      "Mouth_OralCavity": 0,
+      "Mouth_UpperLip": 0,
+      "Operculum_HighlightRim.L": 0,
+      "Operculum_HighlightRim.R": 0,
+      "Operculum_VisibleEdge.L": 0,
+      "Operculum_VisibleEdge.R": 0,
+      "Pectoral_Membrane.L": 0,
+      "Pectoral_Membrane.R": 0,
+      "Pectoral_Rays_18.L": 0,
+      "Pectoral_Rays_18.R": 0,
+      "Pelvic_Fin.L": 0,
+      "Pelvic_Fin.R": 0,
+      "Pelvic_Rays.L": 0,
+      "Pelvic_Rays.R": 0,
+      "Teeth_Lower_InnerRow": 0,
+      "Teeth_Lower_OuterRow": 0,
+      "Teeth_Upper_InnerRow": 0,
+      "Teeth_Upper_OuterRow": 0
+    },
+    "symmetry": {
+      "Anal_FinMembrane": {
+        "mirror_error_m": 2.3283064365386963e-10
+      },
+      "Anal_SoftRays_14": {
+        "mirror_error_m": 1.2195592161891145e-18
+      },
+      "Anal_Spines_02": {
+        "mirror_error_m": 1.3212166115445845e-18
+      },
+      "Body_BlueDorsum_YellowVenter": {
+        "mirror_error_m": 1.4636978516713841e-18
+      },
+      "Caudal_ForkedMembrane": {
+        "mirror_error_m": 0.0
+      },
+      "Caudal_Rays_18": {
+        "mirror_error_m": 0.0
+      },
+      "Dorsal_SoftMembrane_14": {
+        "mirror_error_m": 0.0
+      },
+      "Dorsal_SoftRays_14": {
+        "mirror_error_m": 0.0
+      },
+      "Dorsal_Spines_13": {
+        "mirror_error_m": 0.0
+      },
+      "Dorsal_SpinousMembrane_XIII": {
+        "mirror_error_m": 1.8189894035458565e-12
+      },
+      "Jaw_LowerLip": {
+        "mirror_error_m": 5.290474523936295e-19
+      },
+      "Mouth_OralCavity": {
+        "mirror_error_m": 3.5269828436282354e-19
+      },
+      "Mouth_UpperLip": {
+        "mirror_error_m": 1.7634914218141177e-19
+      },
+      "Teeth_Lower_InnerRow": {
+        "mirror_error_m": 0.0
+      },
+      "Teeth_Lower_OuterRow": {
+        "mirror_error_m": 0.0
+      },
+      "Teeth_Upper_InnerRow": {
+        "mirror_error_m": 0.0
+      },
+      "Teeth_Upper_OuterRow": {
+        "mirror_error_m": 0.0
+      },
+      "Eye_Globe.L": {
+        "paired_mirror_error_m": 0.0
+      },
+      "Eye_Iris.L": {
+        "paired_mirror_error_m": 0.0
+      },
+      "Eye_OrbitalRim.L": {
+        "paired_mirror_error_m": 0.0
+      },
+      "Eye_Pupil.L": {
+        "paired_mirror_error_m": 0.0
+      },
+      "LateralLine_Pores_18.L": {
+        "paired_mirror_error_m": 0.0
+      },
+      "Operculum_HighlightRim.L": {
+        "paired_mirror_error_m": 0.0
+      },
+      "Operculum_VisibleEdge.L": {
+        "paired_mirror_error_m": 0.0
+      },
+      "Pectoral_Membrane.L": {
+        "paired_mirror_error_m": 0.0
+      },
+      "Pectoral_Rays_18.L": {
+        "paired_mirror_error_m": 0.0
+      },
+      "Pelvic_Fin.L": {
+        "paired_mirror_error_m": 0.0
+      },
+      "Pelvic_Rays.L": {
+        "paired_mirror_error_m": 0.0
+      }
+    },
+    "mesh_nonmanifold_edges": {
+      "Anal_FinMembrane": 0,
+      "Anal_SoftRays_14": 0,
+      "Anal_Spines_02": 0,
+      "Body_BlueDorsum_YellowVenter": 0,
+      "Caudal_ForkedMembrane": 0,
+      "Caudal_Rays_18": 0,
+      "Dorsal_SoftMembrane_14": 0,
+      "Dorsal_SoftRays_14": 0,
+      "Dorsal_Spines_13": 0,
+      "Dorsal_SpinousMembrane_XIII": 0,
+      "Eye_Globe.L": 0,
+      "Eye_Globe.R": 0,
+      "Eye_Iris.L": 0,
+      "Eye_Iris.R": 0,
+      "Eye_OrbitalRim.L": 0,
+      "Eye_OrbitalRim.R": 0,
+      "Eye_Pupil.L": 0,
+      "Eye_Pupil.R": 0,
+      "Jaw_LowerLip": 0,
+      "LateralLine_Pores_18.L": 0,
+      "LateralLine_Pores_18.R": 0,
+      "Mouth_OralCavity": 0,
+      "Mouth_UpperLip": 0,
+      "Operculum_HighlightRim.L": 0,
+      "Operculum_HighlightRim.R": 0,
+      "Operculum_VisibleEdge.L": 0,
+      "Operculum_VisibleEdge.R": 0,
+      "Pectoral_Membrane.L": 0,
+      "Pectoral_Membrane.R": 0,
+      "Pectoral_Rays_18.L": 0,
+      "Pectoral_Rays_18.R": 0,
+      "Pelvic_Fin.L": 0,
+      "Pelvic_Fin.R": 0,
+      "Pelvic_Rays.L": 0,
+      "Pelvic_Rays.R": 0,
+      "Teeth_Lower_InnerRow": 0,
+      "Teeth_Lower_OuterRow": 0,
+      "Teeth_Upper_InnerRow": 0,
+      "Teeth_Upper_OuterRow": 0
+    },
+    "tail_animation_displacement_m_at_frame13": 0.009769775768551033,
+    "texture_dimensions_verified": [
+      2048,
+      2048
+    ],
+    "packed_smoothness_max_quantization_error": 0.00392156862745098,
+    "validation_passed": true
+  },
+  "fbx_round_trip": {
+    "header": "Kaydara FBX Binary  \u0000\u001a\u0000",
+    "mesh_count": 39,
+    "vertices": 19389,
+    "triangles": 37806,
+    "bone_count": 17,
+    "dimensions_m": [
+      0.09379439800977707,
+      0.01987621933221817,
+      0.03826870955526829
+    ],
+    "skinned_mesh_count": 39,
+    "annotation_count": 17,
+    "animation_actions": [
+      {
+        "name": "Label_AnalFin_II_14|Scene",
+        "frame_range": [
+          2.0,
+          50.0
+        ]
+      },
+      {
+        "name": "Label_BlueDorsalRegion|Scene",
+        "frame_range": [
+          2.0,
+          50.0
+        ]
+      },
+      {
+        "name": "Label_BlueYellowBoundary|Scene",
+        "frame_range": [
+          2.0,
+          50.0
+        ]
+      },
+      {
+        "name": "Label_CtenoidScales|Scene",
+        "frame_range": [
+          2.0,
+          50.0
+        ]
+      },
+      {
+        "name": "Label_DorsalSoftRays_14|Scene",
+        "frame_range": [
+          2.0,
+          50.0
+        ]
+      },
+      {
+        "name": "Label_DorsalSpines_XIII|Scene",
+        "frame_range": [
+          2.0,
+          50.0
+        ]
+      },
+      {
+        "name": "Label_Eye_L|Scene",
+        "frame_range": [
+          2.0,
+          50.0
+        ]
+      },
+      {
+        "name": "Label_Eye_R|Scene",
+        "frame_range": [
+          2.0,
+          50.0
+        ]
+      },
+      {
+        "name": "Label_ForkedCaudalFin|Scene",
+        "frame_range": [
+          2.0,
+          50.0
+        ]
+      },
+      {
+        "name": "Label_LateralLine18_L|Scene",
+        "frame_range": [
+          2.0,
+          50.0
+        ]
+      },
+      {
+        "name": "Label_Operculum_L|Scene",
+        "frame_range": [
+          2.0,
+          50.0
+        ]
+      },
+      {
+        "name": "Label_Operculum_R|Scene",
+        "frame_range": [
+          2.0,
+          50.0
+        ]
+      },
+      {
+        "name": "Label_PectoralFin_L|Scene",
+        "frame_range": [
+          2.0,
+          50.0
+        ]
+      },
+      {
+        "name": "Label_PectoralFin_R|Scene",
+        "frame_range": [
+          2.0,
+          50.0
+        ]
+      },
+      {
+        "name": "Label_PelvicFin|Scene",
+        "frame_range": [
+          2.0,
+          50.0
+        ]
+      },
+      {
+        "name": "Label_TerminalMouth|Scene",
+        "frame_range": [
+          2.0,
+          50.0
+        ]
+      },
+      {
+        "name": "Label_YellowVentralRegion|Scene",
+        "frame_range": [
+          2.0,
+          50.0
+        ]
+      },
+      {
+        "name": "NeonDamselfish_Rig|Scene",
+        "frame_range": [
+          2.0,
+          50.0
+        ]
+      }
+    ],
+    "texture_paths": [
+      {
+        "path": "Assets/NeonDamselfish/Textures/PC_BaseColor_2K.png",
+        "exists": true
+      },
+      {
+        "path": "Assets/NeonDamselfish/Textures/PC_BaseColor_2K.png",
+        "exists": true
+      },
+      {
+        "path": "Assets/NeonDamselfish/Textures/PC_Normal_2K.png",
+        "exists": true
+      },
+      {
+        "path": "Assets/NeonDamselfish/Textures/PC_Roughness_2K.png",
+        "exists": true
+      }
+    ],
+    "materials": [
+      "PC_Atlas_URP"
+    ]
+  },
+  "unity_editor_tested": false,
+  "verification_note": "FBX reimport and numerical checks in Blender 4.5.3; no Unity Editor is installed on this machine."
+}

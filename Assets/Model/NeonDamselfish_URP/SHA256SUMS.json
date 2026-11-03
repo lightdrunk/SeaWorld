@@ -1,0 +1,23 @@
+{
+  "Assets/NeonDamselfish/AnatomyManifest.json": "fc1a2c6995576e90fbe01a2f8a0ca639b17080b770f71d0ed67b71154ca5dc19",
+  "Assets/NeonDamselfish/Editor/NeonDamselfishUrpSetup.cs": "9f226101fd9ffe2beed53985ff154f4bccf843604dfd3349b1582fcfee2a3f95",
+  "Assets/NeonDamselfish/Materials/PC_Atlas_URP.mat": "8375caa493a3c0da780e8db2192e0f5f34bb8b94a2a1f8365bd2d6f5d4d2ce2a",
+  "Assets/NeonDamselfish/Materials/PC_Atlas_URP.mat.meta": "76a2c823d3bb59caaf8bafdfed58ed80e53d707e4bd7f1ee330cf8b26bf6fbde",
+  "Assets/NeonDamselfish/NeonDamselfish_Rigged.fbx": "550d3be0cfddc2e904128410f7dac81ea8481c59e3a04688ea907a156b75740c",
+  "Assets/NeonDamselfish/Textures/PC_BaseColor_2K.png": "2ec504dc2d63c969eb226c41e3c9ba80bf221e01884e09f4eb897156a8e6cc4c",
+  "Assets/NeonDamselfish/Textures/PC_BaseColor_2K.png.meta": "06fda813185bcae5b5c7c8a938f7e4ba1bc174833e4966c77b2f9f999e558caa",
+  "Assets/NeonDamselfish/Textures/PC_Metallic_2K.png": "b590bea9951b4717adaa3f1516b4892077ed05f8b5c7a2a16bbf6eea4a258011",
+  "Assets/NeonDamselfish/Textures/PC_Metallic_2K.png.meta": "2cfb74b581f336f6d4bfd8039214735c6b146ff6a7381d73b75754b1dc294748",
+  "Assets/NeonDamselfish/Textures/PC_Normal_2K.png": "100c904e701afbfd89be176ddab522d4854ec148b4b5f4abf073bbd63b8bb949",
+  "Assets/NeonDamselfish/Textures/PC_Normal_2K.png.meta": "f48b8eff3827d71125f1fc0bd1c741d67c93e22459f2e66f3fe5132505c53777",
+  "Assets/NeonDamselfish/Textures/PC_Roughness_2K.png": "1c7a3ca12e8b8714bd0a889e5cce0f3fdc97457223d136c93a2be7ba8af39761",
+  "Assets/NeonDamselfish/Textures/PC_Roughness_2K.png.meta": "c7066a8519b98e3d6c4d478a2826d4e8e4683af4114acf5dfaf48ef591d8fc27",
+  "Assets/NeonDamselfish/Textures/PC_URP_MetallicSmoothness_2K.png": "93150319d7668d6aeba34187d61637ce020caf6e7ff6d07dd5808009ebc128cd",
+  "Assets/NeonDamselfish/Textures/PC_URP_MetallicSmoothness_2K.png.meta": "dbe80ce09fb3b91d71d2220c8962e966fb61ba4026b3156f1b007a6ca43fed56",
+  "NeonDamselfish_Rigged.glb": "40e3d039a045a3d941d7c31fad10e7673d3af231976d49d6185c68519ad56547",
+  "NeonDamselfish_Source.blend": "a304205e9dbaac1675f268db613fbef4b2ecf35fdb060a14dda8901618876762",
+  "Preview_Side.png": "48c1b3214d0c8e2f3994e199d423ad5b805da1288d285f56633677d69234980d",
+  "Preview_ThreeQuarter.png": "fc0e69c6c12ebd227f56b12403069f5ca6f83bc19d172d83f0d55e1bf8491b77",
+  "README_\u4e2d\u6587.txt": "08523b795ae727cef497e9751ac019f18123bbd409202a1e4aeca60d7b1703e4",
+  "ValidationReport.json": "7e46816a5d86864bc9fadac62c9ecee4295cbc2ba3ec9b94415bb698f2de3080"
+}
